@@ -1,0 +1,6 @@
+GET http://localhost:3001/HTML HTTP/1.1
+Content-Type: application/json
+
+###
+GET http://localhost:3001/CSS HTTP/1.1
+Content-Type: application/json
