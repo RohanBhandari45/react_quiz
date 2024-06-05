@@ -93,7 +93,7 @@ const QuizPage = ({ subject, handleRestart }) => {
               ${answer === option ? "correct-option": ""} 
               ${wrong === option ? "wrong-option": ""}`
             }
-             onClick={() => setChosen(option)}
+             onClick={() => {setChosen(option), setError(false)}}
              key={index} 
           >
             ({String.fromCharCode(65 + index)}) {option}
