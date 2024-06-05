@@ -199,7 +199,6 @@
 
 .option-chosen {
     background-color: var(--blue);
-    color: var(--primary-text-color);
 }
 
 .option-chosen:hover {
