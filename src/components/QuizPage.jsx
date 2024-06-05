@@ -22,7 +22,9 @@ const QuizPage = ({ subject, handleRestart }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get(`http://localhost:3001/${subject}`);
+      const response = await axios.get(
+			`https://my-json-server.typicode.com/RohanBhandari45/react_quiz/${subject}`
+		);
       setData(response.data);
     };
 
